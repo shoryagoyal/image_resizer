@@ -1,0 +1,23 @@
+#hubble-container {
+    width: 50%;
+    font-size: 0;
+    border: 1px solid #111;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+  
+  #hubblepic {
+    width: 100%;
+  }
+  
+  #zoomer {
+    display: block;
+    width: 50%;
+    margin: 2rem auto;
+  }
+  @media all and (max-width: 500px) {
+    #zoomer, #hubble-container {
+      width: 85%;
+    }
+  }
